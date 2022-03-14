@@ -1,0 +1,77 @@
+/*image modifiée*/
+div.image-modifie{
+    position: relative;
+    z-index: 10;
+}
+/*calques*/
+#fenetre,#flamme,#marican,#royal-mai,#toit-batiment,#troisetoile,#fenetrerose,#ange{
+    position: absolute;
+    z-index: 99;
+    opacity:0;
+}
+section .image-modifie #fenetre{
+    right:23.8%;
+    top: 49%;
+    width:1.4%;
+}
+section .image-modifie #flamme{
+    bottom: 14%;
+    right: 41.5%;
+    width: 1%;
+}
+section .image-modifie #marican{
+    bottom: 17%;
+    right: 33%;
+    width: 2%;
+}
+section .image-modifie #royal-mai{ 
+    bottom: 33.6%;
+    width: 2%;
+    right: 50.8%;
+}
+section .image-modifie #toit-batiment{
+   bottom: 87.7%;
+    width: 4%;
+    right:51%;
+    opacity:0;
+}
+section .image-modifie #troisetoile{
+    bottom:10.4%;    
+    width:2%;
+    right:12%;    
+}
+section .image-modifie #fenetrerose{
+    right: 21%;
+    width: 3%;
+    top: 32%;  
+}
+section .image-modifie #ange{
+    right: 44%;
+    width: 2%;
+    top: 22%;
+}
+/*button*/
+#btn-reset,#btn-soluce,#btn-help,#btn-count{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+#btn-reset{
+    background-color: rgb(115, 115, 209);
+}
+#btn-soluce{
+    background-color: red;
+}
+#btn-help{
+    background-color: green;
+}
+#btn-count{
+    background-color: rgb(115, 128, 0);
+}
+/*class perso*/
+.color-black{
+    color: black;
+}
+
+ 
